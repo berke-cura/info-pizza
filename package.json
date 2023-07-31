@@ -1,0 +1,22 @@
+{
+  "name": "infosets-pizza-order-app",
+  "version": "1.0.0",
+  "description": "A Node.js app for pizza customers to find the nearest 5 restaurants within 10km. Uses Express.js, PostgreSQL, body-parser, and cors.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests available\""
+  },
+  "author": "Berke Cüra",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-repo-name.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pg": "^8.11.1"
+  }
+}
